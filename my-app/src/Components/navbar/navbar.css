@@ -1,0 +1,42 @@
+  .navbar{
+         background-color: rgb(30, 30, 30);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+        width: 100vw;
+        max-width: 75rem;
+        padding: 1rem 2rem;
+        margin: 0 auto;
+        position: sticky;
+        top: 0;
+        z-index: 3;
+        
+    }
+
+
+.logo{
+    object-fit: cover;
+    height: 3rem;
+    width: 5rem;
+
+}
+
+.homeabout{
+    margin:1rem;
+    cursor: pointer;
+}
+
+.contact{
+    object-fit: cover;
+    height: 1rem;
+    width: auto;
+}
+
+
+.homeabout:hover{
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+}
+ 
