@@ -1,5 +1,5 @@
 import React from 'react';
-import './skills.css';
+import './styles.css';
 import UIdesign from '../../assets/ui-design.png'
 import webDesign from '../../assets/website-design.png'
 import Appdesign from '../../assets/app-design.png'

@@ -1,11 +1,17 @@
 
 import './App.css';
-import Contact from './Components/Contacts/Contacts';
-import Footer from './Components/Footer/Footer';
-import Projects from './Components/Projects/Projects';
-import Intro from './Components/intro/intro';
+import Contact from './Components/Contacts';
+import Footer from './Components/Footer';
+import Projects from './Components/Projects';
+import Intro from './Components/intro';
 import Navbar from './Components/navbar';
-import Skills from './Components/skills/skills';
+import Skills from './Components/skills';
+// import Contact from './Components/Contacts/Contacts';
+// import Footer from './Components/Footer/Footer';
+// import Projects from './Components/Projects/Projects';
+// import Intro from './Components/intro/intro';
+// import Navbar from './Components/navbar';
+// import Skills from './Components/skills/skills';
 
 function App() {
   return (
@@ -14,8 +20,8 @@ function App() {
       <Intro/>
       <Skills/>
       <Projects/>
-      <Contact/>
-      <Footer/>
+      <Contact/>  
+     <Footer/>
     </div>
   );
 }

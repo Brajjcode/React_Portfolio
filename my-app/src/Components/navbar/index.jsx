@@ -2,8 +2,8 @@
 import logo from "../../assets/logo.png"
 import { Link } from "react-scroll";
 import contact from "../../assets/contact.png"
-import Button from "../Button/Button";
-import "./navbar.css"
+import Button from "../Button";
+import "./styles.css"
 const Navbar=()=>{
     function scroll(){
         document.getElementById('contactpage').scrollIntoView({behavior:'smooth'})

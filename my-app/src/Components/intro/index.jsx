@@ -1,8 +1,9 @@
-import "./intro.css"
+import "./styles.css"
 import bg from '../../assets/brajj.png-removebg-preview.png'
 import { Link } from "react-scroll"
-import Button from "../Button/Button"
+import Button from "../Button"
 import hire from "../../assets/hireme.png"
+//import Button from "../Button"
 
 
 const Intro=()=>{
@@ -21,12 +22,14 @@ const Intro=()=>{
 
                         <p className="intropara">I am a frontend developer with experience in creating visually appealing and user friendly website.</p>
                       
-                         <Button classes="btnIntro" actionhandler={scroll} >
+                        <Button classes="btnIntro" actionhandler={scroll} >
 
                             <img src={hire} alt="hire" className="hireImg"  />
                             
                             Hire me
                             </Button>
+
+                            
                     </div>
                     <img src={bg} alt="" className="bg" />
                 </section>

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Contacts.css";
+import "./styles.css";
 import FacebookIcon from "../../assets/facebook-icon.png"
 import twittericon from "../../assets/twitter.png"
 import instagramicon from "../../assets/instagram.png"
