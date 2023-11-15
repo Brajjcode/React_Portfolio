@@ -5,6 +5,9 @@ import contact from "../../assets/contact.png"
 import Button from "../Button/Button";
 import "./navbar.css"
 const Navbar=()=>{
+    function scroll(){
+        document.getElementById('contactpage').scrollIntoView({behavior:'smooth'})
+    }
     return(
         <>
         <div className="navbar">
@@ -12,13 +15,13 @@ const Navbar=()=>{
 
           <div className="desktopmenu">
 
-          <Link activeClass="active"  to="intro" spy={true} offset={-100} duration={2000}className="homeabout">Home</Link>
-          <Link activeClass="active"  to="skills" spy={true} offset={-100} duration={2000}className="homeabout">About</Link>
-          <Link activeClass="active"  to="portfolio" spy={true} offset={-100} duration={2000}className="homeabout">Portfolio</Link>
+          <Link activeClass="active"  to="intro" spy={true} smooth={true}  offset={-90} duration={500}className="homeabout">Home</Link>
+          <Link activeClass="active"  to="skills" spy={true} smooth={true} offset={-90} duration={500}className="homeabout">About</Link>
+          <Link activeClass="active"  to="portfolio" spy={true} smooth={true} offset={-90} duration={500}className="homeabout">Portfolio</Link>
           
           </div>
 
-          <Button classses="Desktopmenubtn">
+          <Button classses="Desktopmenubtn" actionhandler={scroll} >
              <img src={contact} alt="contact" className="contact"></img>
              Contact Me
              </Button>
